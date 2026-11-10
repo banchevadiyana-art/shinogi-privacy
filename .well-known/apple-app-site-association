@@ -1,0 +1,20 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["APPLE_TEAM_ID.app.shinogi.daily"],
+        "components": [
+          {
+            "/": "/note/*",
+            "comment": "A shared note opens in SHINOGI."
+          }
+        ]
+      },
+      {
+        "appID": "APPLE_TEAM_ID.app.shinogi.daily",
+        "paths": ["/note/*"]
+      }
+    ]
+  }
+}
