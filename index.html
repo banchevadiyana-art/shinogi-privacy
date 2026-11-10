@@ -1,40 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SHINOGI</title>
-  <meta name="description" content="Privacy policy for SHINOGI.">
-  <link rel="canonical" href="https://shinogi.app/privacy">
-  <style>
-    :root { color-scheme: light; }
-    body {
-      margin: 0;
-      background: #f7f4ef;
-      color: #1c1916;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.5;
-    }
-    main { max-width: 40rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
-    h1 { font-size: 1.75rem; letter-spacing: 0.08em; font-weight: 650; margin: 0 0 0.75rem; }
-    p { margin: 0; }
-    a { color: #8a3b12; }
-    footer { margin-top: 2.5rem; color: #4e4944; }
-    footer p { margin: 0 0 0.35rem; }
-    footer a { margin-right: 1rem; }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>SHINOGI</h1>
-    <footer>
-      <p>SHINOGI</p>
-      <p>© 2026 Diyana Bancheva. All rights reserved.</p>
-      <p>
-        <a href="privacy/">Privacy Policy</a>
-        <a href="terms/">Terms of Service</a>
-      </p>
-    </footer>
-  </main>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SHINOGI</title>
+    <meta
+      name="description"
+      content="Daily notes for people who make their own way. One note, one small move. No streaks. No account."
+    />
+    <link rel="canonical" href="https://shinogi.app/" />
+    <meta name="theme-color" content="#121212" />
+    <meta name="apple-itunes-app" content="app-id=6831744697" />
+
+    <meta property="og:title" content="SHINOGI" />
+    <meta
+      property="og:description"
+      content="Daily notes for people who make their own way. One note, one small move. No streaks. No account."
+    />
+    <meta property="og:image" content="https://shinogi.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:alt" content="SHINOGI. No map. No permission. Just begin." />
+    <meta property="og:url" content="https://shinogi.app/" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SHINOGI" />
+    <meta
+      name="twitter:description"
+      content="Daily notes for people who make their own way. One note, one small move. No streaks. No account."
+    />
+    <meta name="twitter:image" content="https://shinogi.app/og-image.jpg" />
+    <meta name="twitter:image:alt" content="SHINOGI. No map. No permission. Just begin." />
+
+    <link rel="icon" href="https://shinogi.app/favicon.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="https://shinogi.app/apple-touch-icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+      }
+
+      body {
+        background: #121212;
+        color: #f4efe8;
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      main {
+        min-height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 48px 24px calc(48px + env(safe-area-inset-bottom));
+      }
+
+      .icon {
+        width: 88px;
+        height: 88px;
+        border-radius: 22%;
+      }
+
+      .brand {
+        margin: 28px 0 0;
+        padding-left: 0.28em;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 1;
+        letter-spacing: 0.28em;
+      }
+
+      h1 {
+        margin: 28px 0 0;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 1.08;
+        letter-spacing: -0.02em;
+      }
+
+      h1 span {
+        color: #d66c43;
+      }
+
+      .sub {
+        margin: 20px 0 0;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 1.35;
+      }
+
+      .store {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 36px;
+        min-width: 44px;
+        min-height: 44px;
+      }
+
+      .store img {
+        display: block;
+        height: 40px;
+        width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img class="icon" src="apple-touch-icon.png" width="88" height="88" alt="" />
+      <p class="brand">SHINOGI</p>
+      <h1>No map.<br />No permission.<br /><span>Just begin.</span></h1>
+      <p class="sub">Start the work you put off</p>
+      <a class="store" href="https://apps.apple.com/app/id6831744697">
+        <img src="app-store-badge.svg" width="120" height="40" alt="Download on the App Store" />
+      </a>
+    </main>
+  </body>
 </html>
